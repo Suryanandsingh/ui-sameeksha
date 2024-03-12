@@ -1,0 +1,7 @@
+.margin_top_10{
+    margin-top: 8%;
+}
+.form_container {
+    padding: 1.5%;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 14px 28px, rgba(0, 0, 0, 0.12) 0px 10px 8px;
+}

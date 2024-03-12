@@ -1,0 +1,6 @@
+src->app->dashboard(header, loading, error, landing page)
+
+
+
+color shade = [#69798c,#3c4f64, #1e2832]
+color tint = [#d1d0cf, #e6e5e5, #141414]

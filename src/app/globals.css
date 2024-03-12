@@ -1,0 +1,55 @@
+:root{
+  --white1: #e6e5e5;
+  --white2: #d1d0cf; 
+  /* #69798c,#3c4f64, #1e2832 */
+  --dark1:#1e2832;
+  --dark2: #3c4f64;
+  --dark3: #69798c;
+
+  --inputBackgroud: #637283;
+}
+
+body{
+  margin: 0px !important;
+}
+header {
+  position: sticky;
+  top: 0px;
+  z-index: 999;
+  border: none;
+}
+header a{
+  text-decoration: none;
+}
+.header-bg {
+  background-color: var(--dark2);
+}
+
+.background{
+  min-height: 100vh;
+  background-image: linear-gradient(var(--dark2),var(--dark1)); 
+}
+.color {
+  color: var(--white1);
+}
+.color-sec {
+  color: var(--white2);
+}
+.cursor-pointer{
+  cursor: pointer;
+}
+.hover-underlines:hover {
+  text-decoration: underline; /* Remove default underline */
+  color: var(--white1); /* Set the text color */
+  transition: color 0.3s ease, transform 0.3s ease;
+  /* transform: scale(1.1); */
+  transform-origin: center;
+}
+.button-primary,
+.button-primary:hover{
+  background: var(--dark2);
+  color: var(--white1);
+}
+.font-larger{
+  font-size: larger;
+}

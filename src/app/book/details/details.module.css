@@ -1,0 +1,17 @@
+.title h1{
+    font-size: 4rem;
+    margin: 0;
+    letter-spacing: 5px;
+}
+.title p{
+    font-size: 1.1rem;
+    margin: 0;
+    letter-spacing: 10px;
+    /* float: right; */
+}
+.shareIcon{
+    color: var(--white2);
+    width: 40px;
+    height: 30px;
+    cursor: pointer;
+}

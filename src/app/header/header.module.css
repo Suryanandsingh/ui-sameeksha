@@ -1,0 +1,35 @@
+
+.listStyleNone {
+    list-style: none;
+}
+.headerFont {
+    font-size: larger;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.ml_15{
+    margin-left: 15%;
+}
+.input{
+    width: 100%;
+    padding: 4px 15px;
+    border-radius: 20px;
+    border: none;
+    background: var(--inputBackgroud);
+    color: var(--white2);
+    outline: none;
+}
+.input::placeholder{
+    color: var(--white2);
+}
+.searchIconContainer {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15px
+}
+.searchIcon{
+    color: var(--white2);
+    width: 20px;
+    height: 15px;
+}
